@@ -9,8 +9,6 @@ A
 identifier.sqlite,5/7/57eb79cd3d4a5ae040525478ea4fe859974bbc3c
 X
 (electronics/templates/auth/register.html,d/e/deb2790e03ecc356dc2e36044da4aa0ad81de41c
-L
-electronics/static/style.css,5/a/5ac8dd1fa6ef5da19f48f4812ca5e79e1bfd4240
 U
 %electronics/templates/auth/Login.html,d/5/d59a6c7939a1d21fb3b8c52fee78ab3b7918e30b
 A

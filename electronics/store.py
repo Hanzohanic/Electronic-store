@@ -1,15 +1,25 @@
 from flask import (
+    Flask,
     Blueprint, flash, g, redirect, render_template, request, url_for
 )
+from flask_bootstrap import Bootstrap
 from werkzeug.exceptions import abort
 
 from electronics.auth import login_required
 from electronics.db import get_db
 
 bp = Blueprint('store', __name__)
+app = Flask(__name__)
 
 
-@bp.route('/')
+def create_app():
+    bootapp = Flask(__name__)
+    Bootstrap(bootapp)
+
+    return bootapp
+
+
+@bp.route('/storefront')
 def index():
     db = get_db()
     product = db.execute(
@@ -101,3 +111,23 @@ def delete(id):
     db.execute('DELETE FROM post WHERE id = ?', (id,))
     db.commit()
     return redirect(url_for('storefront.index'))
+
+
+@bp.route("/")
+def home():
+    return render_template('frontend/index.html')
+
+
+@bp.route("/aboutus")
+def aboutus():
+    return render_template('frontend/aboutus.html')
+
+
+@bp.route("/contactus")
+def contactus():
+    return render_template('frontend/contactus.html')
+
+
+@bp.route("/offers")
+def offers():
+    return render_template("storefront/offers.html")
