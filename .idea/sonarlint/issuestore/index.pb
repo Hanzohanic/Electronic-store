@@ -1,10 +1,4 @@
 
-U
-%electronics/templates/Main/index.html,2/c/2c6dc256314b092e070741f8e79fbf036f6a45a9
-Y
-)electronics/templates/Main/contactus.html,6/8/687593976aae0d131507f5820e77d92aebe6391d
-W
-'electronics/templates/Main/aboutus.html,7/c/7c68bc1a8f74ee02e1512d9c514a1406f5a0502b
 A
 identifier.sqlite,5/7/57eb79cd3d4a5ae040525478ea4fe859974bbc3c
 X
@@ -19,3 +13,15 @@ F
 electronics/schema.sql,4/a/4a8c5004844ac63919f7ea63f75e67a27eda8668
 [
 +electronics/templates/storefront/store.html,e/f/efd8def5b0f313bd2a629059020485728f49c7bc
+[
++electronics/templates/frontend/aboutus.html,c/e/cec2a4601bc46f9ae5392645f9e029b620be468b
+]
+-electronics/templates/frontend/contactus.html,8/7/87c9bfb3d5a6fb450e0d8135b0feceab7cbcfdeb
+\
+,electronics/templates/storefront/create.html,2/7/275c63b4625ba99a1f506e081ffa21aaf051e9b2
+B
+electronics/app.py,e/2/e2df69947c61c162347f6edd5799ca725bd0eaf5
+C
+electronics/auth.py,d/7/d7a89332192eae3fde942e2f10f09ff5a7e530cd
+G
+electronics/__init__.py,9/0/909e78538da62d6deeafc66d40aadba2c7ea8307
